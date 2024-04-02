@@ -1,6 +1,9 @@
 
 //errors rectified by chatgpt
 
+//YOUTUBE reference:https://youtu.be/Cvhi2pU2zOk?si=rA2FfOa6ZgOAx8zC
+                    :https://youtu.be/MrQ6xQx6-y4?si=DuwlIkxz9zjFSrsM
+
 //  * The entry point function. This will read the provided CSV file, scrape the companies'
 //  * YC pages, and output structured data in a JSON file.
 //  */
