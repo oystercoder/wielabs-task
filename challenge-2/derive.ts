@@ -1,6 +1,6 @@
 
 /**
- ** *resources used: chatgpt to rectify errors, youtube to understand cheerio.
+ ** *resources used: chatgpt to rectify errors,and youtube.
  */
  
 import * as cheerio from "cheerio";
