@@ -1,3 +1,4 @@
+//code from chatgpt
 import { CheerioCrawler } from "crawlee";
 import { ecd, ej } from "./derive";
 import { YC, Job } from "./way";
