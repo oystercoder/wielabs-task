@@ -1,4 +1,4 @@
-// import {processCompanyList }from "./challenge";
+import {processCompanyList }from "./challenge";
 
 
 // // /**
@@ -15,7 +15,7 @@
 
 
 
-const { processCompanyList } = require('./challenge');
+
 
 // Define an async function to use await
 async function main() {
