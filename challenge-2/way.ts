@@ -1,7 +1,6 @@
-/**
- * Represents the response data structure that might be returned from an API or data source.
- */
-//used chatgpt to rectify errors.
+
+//used chatgpt.
+
 export interface responseData {
   "Company Name": string; // The name of the company
   "YC URL": string; // The URL of the company on the Y Combinator website
