@@ -1,4 +1,4 @@
-// knexfile.ts
+// chatgpt+stackoverflow
 import path from 'path';
 
 export default {
