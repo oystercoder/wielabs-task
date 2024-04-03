@@ -16,6 +16,7 @@ import * as tar from 'tar';
 export async function processDataDump() {
 const downloadPath: string = './tmp/dump.tar.gz';
 await downloadFile('https://fiber-challenges.s3.amazonaws.com/dump.tar.gz', downloadPath);
+const extractionPath = './tmp/extracted';
 
 async function extract(downloadPath: string, extractionPath: string): Promise<void> {
   // Create the extraction directory if it doesn't exist
