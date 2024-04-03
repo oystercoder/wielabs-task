@@ -2,6 +2,8 @@ import * as fs from 'fs';
 import * as zlib from 'zlib';
 import * as tar from 'tar';
 import * as path from 'path';
+ const downloadPath: string = './tmp/dump.tar.gz';
+ const extractionPath = './tmp/extracted';
 
 export async function extract(downloadPath: string, extractionPath: string): Promise<void> {
     // Create the extraction directory if it doesn't exist
@@ -36,8 +38,3 @@ export async function extract(downloadPath: string, extractionPath: string): Pro
         // Start the extraction process
         readStream.pipe(decompressStream).pipe(extractStream);
     });
-}
-
-
-
-
