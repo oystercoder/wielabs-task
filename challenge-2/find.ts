@@ -21,8 +21,9 @@ export async function sp(url: string[]): Promise<YC[]> {
     },
   });
 
-  // start the crawler
-  await crawler.run(url);
+ for (const url of urls) {
+        await crawler.run(url);
+    }
 
   return sd;
 }
