@@ -38,3 +38,4 @@ export async function extract(downloadPath: string, extractionPath: string): Pro
         // Start the extraction process
         readStream.pipe(decompressStream).pipe(extractStream);
     });
+}
