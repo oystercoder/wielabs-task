@@ -24,7 +24,7 @@ const downloadPath: string = './tmp/dump.tar.gz';
 await downloadFile('https://fiber-challenges.s3.amazonaws.com/dump.tar.gz', downloadPath);
 const extractionPath = './tmp/extracted';
 
-async function extract(downloadPath: string, extractionPath: string): Promise<void> {
+await function extract(downloadPath: string, extractionPath: string): Promise<void> {
   // Create the extraction directory if it doesn't exist
   if (!fs.existsSync(extractionPath)) {
       fs.mkdirSync(extractionPath);
@@ -59,7 +59,7 @@ async function extract(downloadPath: string, extractionPath: string): Promise<vo
   });
 }
 await initializeDatabase();
-async function processCSV(filePath: string, tableName: string): Promise<void> {
+await function processCSV(filePath: string, tableName: string): Promise<void> {
   // Create a stream for reading the CSV file
   const stream = fs.createReadStream(filePath);
 
