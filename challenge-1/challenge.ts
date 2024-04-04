@@ -8,6 +8,11 @@
 //code from chatgpt+references from stackoverflow
 
 import knex from "knex";
+import { downloadFile } from './download';
+import { extract } from './extract';
+import { initializeDatabase } from './database';
+import { processCSV } from './manage';
+
 
 import * as zlib from 'zlib';
 
